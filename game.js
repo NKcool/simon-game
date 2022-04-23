@@ -11,6 +11,7 @@ function gameOver() {
     $("h1").text("Game Over, Press Any Key to Restart")
     var audio = new Audio("sounds/" + "wrong" + ".mp3");
     audio.play();
+    started = false;
 }
 
 function clickAnimate(color) {
